@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+.footer a {
+    color: #6c757d !important;
+    text-decoration: none !important;
+    transition: color 0.2s ease;
+    font-size: small;
+}
+
+.footer a:hover {
+    color: #000000 !important;
+}
